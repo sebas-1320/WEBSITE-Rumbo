@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  font-family: "Oswald", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("../medios-Rumbo/img/bg-header.png");
+    background-size: cover;
+    background-position: center;
+
+}
+/* Apuntamos a la barra de navegación que está dentro de header */
+header nav{
+    /* background-color: red; */
+    display: flex;
+    /* height: 400px; */
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    
+    
+
+}
+
+header ul a{
+    color: white;
+    font-size: 30px;
+    margin: 0 18px;
+    text-decoration: none;
+    transition: .6s;
+}
+
+header ul a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+#hero{
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 210px;
+    
+}
+
+#hero h2{
+    color: yellow;
+    font-size: 60px;
+}
+
+#hero h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+#hero button {
+    background-color: yellow;
+    color: #999;
+    font-size: 32px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+#planes{
+    width: 100%;
+    padding: 120px 0;
+    text-align: center;
+
+}
+#planes h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#planes p{
+    font-size: 22px;
+}
+
+#planes .fila{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#planes article{
+    margin: 0 40px;
+    position: relative;
+}
+
+#planes article h3{
+    position: absolute;
+    z-index: 9;
+    top: 110px;
+    width: 100%;
+    text-align: center;
+    color: yellow;
+}
+
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+#destinos{
+    width: 100%;
+    padding: 120px 0;
+    text-align: center;
+
+}
+#destinos h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: yellow;
+}
+
+#destinos .fila{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#destinos article{
+    margin: 0 40px;
+    position: relative;
+}
+
+#destinos article h3{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#destinos{
+    background: url(../medios-Rumbo/img/bg-destinos.png);
+    background-size: cover;
+}
+
+#contacto{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    background: yellow;
+
+}
+
+#contacto h2{
+    font-size: 50px;
+}
+#contacto P{
+    font-size: 20px;
+}
+
+#contacto form{
+    width: 50%;
+    margin: 40px auto;
+  
+
+}
+#contacto input,
+#contacto  select{
+    width: 40%;
+    padding: 8px 14px;
+    font-size: 20px;
+    margin: 10px;
+    
+}
+
+#contacto button{
+    padding: 14px 30px;
+    font-size: 20px;
+    background: #9e9e06;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 60px;
+    border-color: transparent;
+}
+footer{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
